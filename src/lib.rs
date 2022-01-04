@@ -198,7 +198,13 @@ pub type ImmutablyReferences<'a, T> = PhantomData<&'a T>;
 /// [crate root documentation]: index.html
 pub type MutablyReferences<'a, T> = PhantomData<&'a mut T>;
 
-/// See the [crate root documentation] for details on variance.
+/// Marks the containing type as having mutable pointers to `T`.
+///
+/// `T` is covariant, it also marks the containing type as not
+/// [`Send`] and not [`Sync`].
+///
+/// See the [crate root documentation] for details on variance
+/// and marker traits.
 ///
 /// [crate root documentation]: index.html
 pub type HasImmPtrTo<T> = PhantomData<*const T>;
