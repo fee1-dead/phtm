@@ -156,6 +156,9 @@
 #![deny(warnings, clippy::all, rust_2018_idioms, future_incompatible)]
 #![deny(rustdoc::broken_intra_doc_links, missing_docs)]
 
+#[cfg(doc)]
+extern crate core;
+
 use core::cell::Cell;
 
 #[doc(no_inline)]
