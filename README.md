@@ -11,4 +11,4 @@ This crate provides type aliases for common usages of `PhantomData`.
 phtm = "1.0"
 ```
 
-[documentation](https://docs.rs/crate/phtm/latest/phtm)
+[documentation](https://docs.rs/phtm/latest/phtm/index.html)
