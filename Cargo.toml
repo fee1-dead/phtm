@@ -1,8 +1,8 @@
 [package]
 name = "phtm"
 authors = ["Deadbeef <ent3rm4n@gmail.com>"]
-version = "1.0.3"
-edition = "2015"
+version = "2.0.0"
+edition = "2021"
 description = "Re-exports for common uses of `PhantomData`"
 repository = "https://github.com/fee1-dead/phtm"
 license = "MIT OR Apache-2.0 OR CC-BY-4.0"

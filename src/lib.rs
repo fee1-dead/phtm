@@ -236,7 +236,7 @@ pub type CovariantOver<T> = PhantomData<fn() -> T>;
 /// See the [crate root documentation] for details on variance.
 ///
 /// [crate root documentation]: index.html
-pub type CovariantOverLt<'co> = PhantomData<ContravariantOver<&'co ()>>;
+pub type CovariantOverLt<'co> = CovariantOver<&'co ()>;
 
 /// Marks a type as contravariant.
 ///
