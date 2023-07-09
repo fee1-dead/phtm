@@ -8,7 +8,7 @@ This crate provides type aliases for common usages of `PhantomData`.
 
 ```toml
 [dependencies]
-phtm = "1.0"
+phtm = "2.0.1"
 ```
 
 [documentation](https://docs.rs/phtm/latest/phtm/index.html)
